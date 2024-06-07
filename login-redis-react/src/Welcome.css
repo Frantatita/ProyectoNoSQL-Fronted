@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+}
+
+.welcome-container {
+  width: 100%;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2; /* Color de fondo del contenedor */
+}
+
+.welcome-header {
+  text-align: center;
+  margin-bottom: 20px; /* Espacio entre el encabezado y el resto del contenido */
+}
+
+.welcome-title {
+  font-size: 32px;
+  color: #333; /* Color del título */
+}
+
+.welcome-message {
+  font-size: 18px;
+  color: #666; /* Color del mensaje */
+}
+
+.welcome-nav {
+  margin-top: 20px; /* Espacio entre el mensaje y los enlaces */
+}
+
+.welcome-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.welcome-nav ul li {
+  margin-bottom: 10px;
+}
+
+.welcome-nav ul li a {
+  text-decoration: none;
+  color: #007bff; /* Color de los enlaces */
+}
+
+.logout-button {
+  position: absolute;
+  top: 20px; /* Ajusta la posición del botón de cerrar sesión */
+  right: 20px; /* Ajusta la posición del botón de cerrar sesión */
+  background-color: transparent;
+  color: #333; /* Color del botón */
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  color: #f44336; /* Cambia el color del botón al pasar el cursor sobre él */
+}
