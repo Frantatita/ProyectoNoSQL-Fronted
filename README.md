@@ -9,7 +9,7 @@ Este proyecto es una aplicación web construida con [React](https://reactjs.org/
 - npm (versión 6 o superior) o yarn (opcional, versión 1.22 o superior)
 
 ## Instalación
-
+- Iniciar un proyecto con el framework react
 - Clonar el repositorio en tu máquina local "git clone //"
 - Instalar modulos "npm install"
 - Correr el servidor "npm start"
